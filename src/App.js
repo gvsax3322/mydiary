@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import "./styles/App.css";
-import Intro from "./pages/Intro";
 import Index from "./pages/Index";
-import DiaryIndex from "./pages/diary/Index";
+import Intro from "./pages/Intro";
 import DiaryAdd from "./pages/diary/DiaryAdd";
 import DiaryEdit from "./pages/diary/DiaryEdit";
+import DiaryIndex from "./pages/diary/Index";
+import "./styles/App.css";
 
 function App() {
   return (
@@ -17,11 +17,6 @@ function App() {
           <Route path="/diary/add" element={<DiaryAdd />}></Route>
           <Route path="/diary/edit/:pk" element={<DiaryEdit />}></Route>
         </Routes>
-        {/* <Intro></Intro> */}
-        {/* <Index></Index> */}
-        {/* <DiaryIndex></DiaryIndex> */}
-        {/* <DiaryAdd></DiaryAdd> */}
-        {/* <DiaryEdit></DiaryEdit> */}
       </div>
     </div>
   );

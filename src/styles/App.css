@@ -1,14 +1,14 @@
 .layout {
-  width: 100%;
-  min-width: 380px;
   max-width: 960px;
+  min-width: 480px;
+  width: 100%;
+
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
   padding: 25px 24px;
 }
-
 .wrap {
   width: 100%;
 
@@ -17,5 +17,5 @@
     0px 1px 2px 0px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
 }

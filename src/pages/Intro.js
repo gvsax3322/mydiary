@@ -1,6 +1,7 @@
 import React from "react";
 import Main from "../components/Main";
 import { Link } from "react-router-dom";
+
 const Intro = () => {
   return (
     <Main>

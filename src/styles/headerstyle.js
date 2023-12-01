@@ -2,15 +2,14 @@ import styled from "@emotion/styled";
 
 export const TopBar = styled.header`
   display: flex;
-  justify-content: space-between;
   width: 100%;
   height: 64px;
   padding: 8px 4px;
   align-items: center;
+  justify-content: space-between;
   gap: 6px;
   flex-shrink: 0;
   background: #fef7ff;
-
   h2 {
     font-weight: 400;
   }
@@ -24,8 +23,9 @@ export const TopBar = styled.header`
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
+
     border: none;
-    background: transparent;
+    background-color: transparent;
     cursor: pointer;
   }
 `;
